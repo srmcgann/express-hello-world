@@ -7,6 +7,6 @@
   $port     = '3306';
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
 
-  $baseURL  = "http://games1.whitehot.ninja/b/games/tetris";
+  $baseURL  = "http://efx.whitehot.ninja/b/games/tetris";
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
 ?>

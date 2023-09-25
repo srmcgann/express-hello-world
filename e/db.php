@@ -28,8 +28,8 @@
   
 
   $maxResultsPerPage = 4;
-  $baseAssetsURL = 'http://audiocloud1.whitehot.ninja/e/audio';
-  $baseURL = 'http://audiocloud1.whitehot.ninja/e';
+  $baseAssetsURL = 'http://efx.whitehot.ninja/e/audio';
+  $baseURL = 'http://efx.whitehot.ninja/e';
   $baseFullURL= $baseURL;
   $page = 0;
 ?>

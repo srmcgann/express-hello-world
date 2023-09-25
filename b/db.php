@@ -5,10 +5,10 @@
   
   $local = true;
   if($local){
-    $baseURL='local.games1.whitehot.ninja';
+    $baseURL='local.efx.whitehot.ninja';
     $baseAssetsURL = 'http://local.assets.whitehot.ninja';
   }else{
-    $baseURL='games1.whitehot.ninja';
+    $baseURL='efx.whitehot.ninja';
     $baseAssetsURL = 'http://assets.whitehot.ninja';
   }
   
@@ -28,7 +28,7 @@
   $db_host  = 'localhost';
   $db       = "id21269596_videodemos";
   $port     = '3306';
-  $baseURL  = "http://games1.whitehot.ninja/";
+  $baseURL  = "http://efx.whitehot.ninja/";
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
 
 ?>

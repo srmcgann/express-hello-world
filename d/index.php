@@ -50,7 +50,7 @@
         function receiveMessage(event){
 		var origin = event.origin || event.originalEvent.origin;
 		console.log(origin)
-          if (origin !== "demo1.whitehot.ninja" && origin !== 'code.whitehot.ninja' ) return;
+          if (origin !== "efx.whitehot.ninja" && origin !== 'code.whitehot.ninja' ) return;
           message=event.data;
           var command=message.split(':')[0];
           var data=message.substr(command.length+1);
