@@ -24,8 +24,8 @@
   
 
   $maxResultsPerPage = 4;
-  $demoSandbox='efx.whitehot.ninja/sandbox';
-  $baseAssetsURL = 'http://assets.whitehot.ninja';
-  $baseURL = 'http://efx.whitehot.ninja/a';
+  $demoSandbox='efx.cantelope.org/sandbox';
+  $baseAssetsURL = 'http://assets.cantelope.org';
+  $baseURL = 'http://efx.cantelope.org/a';
   $baseFullURL= $baseURL;
 ?>

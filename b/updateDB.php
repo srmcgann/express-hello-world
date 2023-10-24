@@ -1,7 +1,7 @@
 <?php 
 
-  $tgt = "jsbot.whitehot.ninja/assets/";
-  $newval = "jsbot.whitehot.ninja/";
+  $tgt = "jsbot.cantelope.org/assets/";
+  $newval = "jsbot.cantelope.org/";
 
   echo "processing...";
 

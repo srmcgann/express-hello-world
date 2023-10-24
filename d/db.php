@@ -20,14 +20,14 @@
   $db_host  = 'localhost';
   $db       = "id21269596_videodemos";
   $port     = '3306';
-  $baseURL  = "http://code.whitehot.ninja/";
+  $baseURL  = "http://code.cantelope.org/";
   $link     = mysqli_connect($db_host,$db_user,$db_pass,$db,$port);
   
 
   $maxResultsPerPage = 4;
-  $demoSandbox='code.whitehot.ninja/sandbox';
+  $demoSandbox='code.cantelope.org/sandbox';
   $baseAssetsURL = 'http://assets.dweet.net';
-  $baseURL = 'code.whitehot.ninja';
+  $baseURL = 'code.cantelope.org';
   $baseFullURL= $baseURL;
 ?>
 

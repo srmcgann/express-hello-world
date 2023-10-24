@@ -1,4 +1,7 @@
 <?php 
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
   $url = (isset($_GET['i']) && $_GET['i'] && strlen($_GET['i']) > 5) ? str_replace('http:///', 'http://', $_GET['i']) : 'http://jsbot.cantelope.org/uploads/1cUypu.mp4';
 ?>
 <!DOCTYPE html>
@@ -1827,6 +1830,3 @@
 
   </script>
 </html>
-
-
-

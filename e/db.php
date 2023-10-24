@@ -28,8 +28,8 @@
   
 
   $maxResultsPerPage = 4;
-  $baseAssetsURL = 'http://efx.whitehot.ninja/e/audio';
-  $baseURL = 'http://efx.whitehot.ninja/e';
+  $baseAssetsURL = 'http://efx.cantelope.org/e/audio';
+  $baseURL = 'http://efx.cantelope.org/e';
   $baseFullURL= $baseURL;
   $page = 0;
 ?>
