@@ -61,7 +61,7 @@
           if(isset($meta['keywords'])) echo "<meta name=\"keywords\" content=\"{$meta['keywords']}\">";
           if(isset($meta['author'])) echo "<meta name=\"author\" content=\"{$meta['author']}\">";
           if(isset($meta['viewport'])) echo "<meta name=\"viewport\" content=\"{$meta['viewport']}\">";
-          echo "<title>$title</title>";
+          if($title) echo "<title>$title</title>";
         }
       ?>
     </head>
@@ -143,7 +143,7 @@
           z-index: 500;
           background-size: 90% 90%;
           position: absolute;
-          left: calc(50% + 220px);
+          left: calc(50% + 180px);
           background-position: center center;
           background-repeat: no-repeat;
           border: none;

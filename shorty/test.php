@@ -11,5 +11,5 @@
     }
     return $res;
   }
-  echo alphaToDec('sophia');
+  echo alphaToDec('npp');
 ?>
