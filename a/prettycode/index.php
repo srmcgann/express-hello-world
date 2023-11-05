@@ -77,7 +77,7 @@
       .copyButton{
         width: 30px;
         height: 30px;
-        background-image: url(/video/clippy.c6b23471.svg);
+        background-image: url(/clippy.c6b23471.svg);
         cursor: pointer;
         z-index: 500;
         background-size: 90% 90%;
